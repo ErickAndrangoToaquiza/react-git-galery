@@ -75,10 +75,11 @@ function Tareas(){
         <input name="" value={tarea}
              onChange={(e)=>handlerSeleccion(e)} />
   
-  <Button variant="primary" size="lg">
-          Agregar
+  <Button variant="outline-primary"
+   style ={{backgroundColor :"violet"}} >
+           Agregar
         </Button>{' '}
-   
+       
         </div></center>
         <div className="App">
   <ul>
